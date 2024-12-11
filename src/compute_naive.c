@@ -63,7 +63,7 @@ int convolve(matrix_t *a_matrix, matrix_t *b_matrix, matrix_t **output_matrix) {
     each move a's row num distance */ 
     for (unsigned int i = 0; i < orows; i++) {
       for (unsigned int j = 0; j < ocols; j++) {
-
+        
         /*Above is how many dot mul we op*/
         /*Below is each dot mul we gonna loop x and y*/
         int32_t sum = 0;
